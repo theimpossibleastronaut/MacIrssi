@@ -193,7 +193,7 @@
 		C25491790681A35900C43D63 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25491770681A35900C43D63 /* CustomTextView.m */; };
 		C26FC9BD08C4E56300CFD1B3 /* MacIrssi.icns in Resources */ = {isa = PBXBuildFile; fileRef = C26FC9BB08C4E56300CFD1B3 /* MacIrssi.icns */; };
 		C2A9B10C0C1187BC002A9848 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A9B10B0C1187BC002A9848 /* Growl-WithInstaller.framework */; };
-		C2A9B1250C118BC2002A9848 /* Growl-WithInstaller.framework in Copy Growl Framework */ = {isa = PBXBuildFile; fileRef = C2A9B10B0C1187BC002A9848 /* Growl-WithInstaller.framework */; };
+		C2A9B1250C118BC2002A9848 /* Growl-WithInstaller.framework in Copy Growl Framework */ = {isa = PBXBuildFile; fileRef = C2A9B10B0C1187BC002A9848 /* Growl-WithInstaller.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C2CC3B150C09F404001C0DDD /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CC3B090C09F404001C0DDD /* libiconv.2.dylib */; };
 		C2D1679106E3E16C000EC6F9 /* ChannelBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D1678F06E3E16C000EC6F9 /* ChannelBar.h */; };
 		C2D1679206E3E16C000EC6F9 /* ChannelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D1679006E3E16C000EC6F9 /* ChannelBar.m */; };
@@ -224,7 +224,7 @@
 		C91F0B180F06E3C900763699 /* MISplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91F0B160F06E3C900763699 /* MISplitView.m */; };
 		C91F131E0F0A63F300763699 /* Themes.png in Resources */ = {isa = PBXBuildFile; fileRef = C91F131D0F0A63F300763699 /* Themes.png */; };
 		C91F139E0F0A743800763699 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91F139D0F0A743800763699 /* Sparkle.framework */; };
-		C91F13A50F0A748600763699 /* Sparkle.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C91F139D0F0A743800763699 /* Sparkle.framework */; };
+		C91F13A50F0A748600763699 /* Sparkle.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C91F139D0F0A743800763699 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C91F13D40F0BE95F00763699 /* Keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = C91F13D30F0BE95F00763699 /* Keyboard.png */; };
 		C91F15220F110A8600763699 /* CTGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = C91F15160F110A8600763699 /* CTGradient.h */; };
 		C91F15230F110A8600763699 /* CTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = C91F15170F110A8600763699 /* CTGradient.m */; };
@@ -458,7 +458,7 @@
 		C9E1B1AD12F00193004E75B0 /* write.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B0D912F00153004E75B0 /* write.c */; };
 		C9E1B1B912F001F0004E75B0 /* irc-modules.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B1B812F001E1004E75B0 /* irc-modules.c */; };
 		C9E1B1C012F0023F004E75B0 /* irc.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E1B1BF12F0022A004E75B0 /* irc.c */; };
-		C9E1B1C512F00273004E75B0 /* GLib.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C9C762AB12EFD5850072D1E8 /* GLib.framework */; };
+		C9E1B1C512F00273004E75B0 /* GLib.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C9C762AB12EFD5850072D1E8 /* GLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C9E1B2E212F012C6004E75B0 /* accept in Copy Helpfiles */ = {isa = PBXBuildFile; fileRef = C9E1B26812F012B6004E75B0 /* accept */; };
 		C9E1B2E312F012C6004E75B0 /* action in Copy Helpfiles */ = {isa = PBXBuildFile; fileRef = C9E1B26912F012B6004E75B0 /* action */; };
 		C9E1B2E412F012C6004E75B0 /* admin in Copy Helpfiles */ = {isa = PBXBuildFile; fileRef = C9E1B26A12F012B6004E75B0 /* admin */; };
@@ -599,7 +599,7 @@
 		C9EBACAC0EA100D400025466 /* ServerBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EBACAA0EA100D400025466 /* ServerBridgeController.m */; };
 		C9EBACE50EA1055F00025466 /* Servers.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EBACE40EA1055F00025466 /* Servers.png */; };
 		C9FBBC3F1049A5A700FE4ACD /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FBBC3E1049A5A700FE4ACD /* GoogleToolboxForMac.framework */; };
-		C9FBBC8F1049A5BC00FE4ACD /* GoogleToolboxForMac.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C9FBBC3E1049A5A700FE4ACD /* GoogleToolboxForMac.framework */; };
+		C9FBBC8F1049A5BC00FE4ACD /* GoogleToolboxForMac.framework in Copy Libraries */ = {isa = PBXBuildFile; fileRef = C9FBBC3E1049A5A700FE4ACD /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C9FDCE4A129DB813004598C1 /* MIScrollViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FDCE48129DB813004598C1 /* MIScrollViewHelper.h */; };
 		C9FDCE4B129DB813004598C1 /* MIScrollViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FDCE49129DB813004598C1 /* MIScrollViewHelper.m */; };
 /* End PBXBuildFile section */
@@ -1011,6 +1011,9 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		10A37983217A553A00B82532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		10A37984217A553A00B82532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
+		10A37985217A553B00B82532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/Tab new.xib"; sourceTree = "<group>"; };
 		24B1D1EA11C7F9510031A5E2 /* libPerlBuild.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = libPerlBuild.sh; sourceTree = "<group>"; };
 		24B1D1EB11C7F9510031A5E2 /* libPerlCopy.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = libPerlCopy.sh; sourceTree = "<group>"; };
 		24B1D1EC11C7F9510031A5E2 /* updateGitVersion.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = updateGitVersion.sh; sourceTree = "<group>"; };
@@ -1187,9 +1190,6 @@
 		C90CA25912A0CDD9009F43CE /* MIChannelSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIChannelSearchController.h; sourceTree = "<group>"; };
 		C90CA25A12A0CDD9009F43CE /* MIChannelSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIChannelSearchController.m; sourceTree = "<group>"; };
 		C91026760E5C665B00E041F7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
-		C911226D0F2B235E006C4BD0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C91122870F2B2431006C4BD0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
-		C91122890F2B2431006C4BD0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "English.lproj/Tab new.xib"; sourceTree = "<group>"; };
 		C91264BB1304F4BA006E0AA4 /* IrssiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrssiConstants.h; sourceTree = "<group>"; };
 		C91264BC1304F4BA006E0AA4 /* IrssiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrssiConstants.m; sourceTree = "<group>"; };
 		C913412C118AB4000001F09D /* autoop.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = autoop.pl; sourceTree = "<group>"; };
@@ -3373,7 +3373,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = C209D3AC08BF5CE6009C9E21 /* Build configuration list for PBXProject "MacIrssi" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3384,6 +3384,7 @@
 				Japanese,
 				French,
 				German,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MacIrssi */;
 			projectDirPath = "";
@@ -3780,7 +3781,7 @@
 		C911226C0F2B235E006C4BD0 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C911226D0F2B235E006C4BD0 /* English */,
+				10A37983217A553A00B82532 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -3788,7 +3789,7 @@
 		C91122860F2B2431006C4BD0 /* Preferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C91122870F2B2431006C4BD0 /* English */,
+				10A37984217A553A00B82532 /* Base */,
 			);
 			name = Preferences.xib;
 			sourceTree = "<group>";
@@ -3796,7 +3797,7 @@
 		C91122880F2B2431006C4BD0 /* Tab new.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C91122890F2B2431006C4BD0 /* English */,
+				10A37985217A553B00B82532 /* Base */,
 			);
 			name = "Tab new.xib";
 			sourceTree = "<group>";
@@ -3815,11 +3816,11 @@
 		C209D3A908BF5CE6009C9E21 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUGGING_SYMBOLS = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -3840,8 +3841,18 @@
 					"-bind_at_load",
 					"-multiply_defined",
 					suppress,
+					"-I/usr/local/Cellar/glib/2.58.1/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.42/include",
+					"-L/usr/local/Cellar/glib/2.58.1/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
 				);
-				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sysctl.MacIrssi;
 				PRODUCT_NAME = MacIrssi;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -3857,9 +3868,9 @@
 		C209D3AA08BF5CE6009C9E21 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks\"";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -3879,8 +3890,18 @@
 					"-bind_at_load",
 					"-multiply_defined",
 					suppress,
+					"-I/usr/local/Cellar/glib/2.58.1/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.42/include",
+					"-L/usr/local/Cellar/glib/2.58.1/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
 				);
-				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sysctl.MacIrssi;
 				PRODUCT_NAME = MacIrssi;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -3896,11 +3917,51 @@
 		C209D3AD08BF5CE6009C9E21 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/Cellar/glib/2.58.1/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.42/include",
+					"-L/usr/local/Cellar/glib/2.58.1/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Development;
@@ -3908,9 +3969,48 @@
 		C209D3AE08BF5CE6009C9E21 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-I/usr/local/Cellar/glib/2.58.1/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.58.1/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.42/include",
+					"-L/usr/local/Cellar/glib/2.58.1/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
+				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Deployment;
@@ -3918,6 +4018,7 @@
 		C95430BD1305AE8700C19A0C /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3928,8 +4029,8 @@
 		C95430BE1305AE8700C19A0C /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "Copy GLib";
 				ZERO_LINK = NO;
@@ -3940,13 +4041,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(BUILT_PRODUCTS_DIR)/Frameworks/GLib.framework/Headers",
 					"$(SRCROOT)/Headers",
@@ -3961,7 +4063,6 @@
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_1 = "-DSYSCONFDIR=\"\\\"/usr/local/etc\\\"\"";
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_2 = "-DHELPDIR=\"\\\"/usr/local/share/irssi/help\\\"\"";
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_3 = "-DTHEMESDIR=\"\\\"/usr/local/share/irssi/themes\\\"\"";
-				PREBINDING = NO;
 				PRODUCT_NAME = irssicore;
 				SKIP_INSTALL = YES;
 			};
@@ -3971,12 +4072,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(BUILT_PRODUCTS_DIR)/Frameworks/GLib.framework/Headers",
 					"$(SRCROOT)/Headers",
@@ -3991,7 +4093,6 @@
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_1 = "-DSYSCONFDIR=\"\\\"/usr/local/etc\\\"\"";
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_2 = "-DHELPDIR=\"\\\"/usr/local/share/irssi/help\\\"\"";
 				OTHER_CFLAGS_QUOTED_FOR_TARGET_3 = "-DTHEMESDIR=\"\\\"/usr/local/share/irssi/themes\\\"\"";
-				PREBINDING = NO;
 				PRODUCT_NAME = irssicore;
 				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
@@ -4001,10 +4102,12 @@
 		C9EC9F1F0E363AE000445345 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sysctl.MacIrssi;
 				PRODUCT_NAME = Packages;
 			};
 			name = Development;
@@ -4012,11 +4115,12 @@
 		C9EC9F200E363AE000445345 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sysctl.MacIrssi;
 				PRODUCT_NAME = Packages;
 				ZERO_LINK = NO;
 			};

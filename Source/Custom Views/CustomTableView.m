@@ -32,19 +32,19 @@
 */
 - (void)rightMouseDown:(NSEvent *)theEvent
 {
-	NSIndexSet *indexSet = [self selectedRowIndexes];
-	int row = [self rowAtPoint:[self convertPoint: [theEvent locationInWindow] fromView: nil]];
-
-	if (row == -1)
+	//NSIndexSet *indexSet = [self selectedRowIndexes];
+	//int row = [self rowAtPoint:[self convertPoint: [theEvent locationInWindow] fromView: nil]];
+    [super rightMouseDown:theEvent];
+	/*if (row == -1)
 		return;
 
 	if (![indexSet containsIndex:row])
   {
     [self selectRowIndexes:[NSIndexSet indexSetWithIndex:row] byExtendingSelection:FALSE];
-  }
+  }*/
 	
 	/* Continue with right-click to bring up context-menu */
-	[super rightMouseDown:theEvent];
+	//[super rightMouseDown:theEvent];
 }
 
 @end

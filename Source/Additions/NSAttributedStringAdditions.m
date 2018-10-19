@@ -112,7 +112,7 @@
       [mutableAttributes setObject:[NSNumber numberWithInt:NSUnderlineStyleSingle] forKey:NSUnderlineStyleAttributeName];
     }
     
-    int l = [self length];
+    int l = (int)[self length];
     [self replaceCharactersInRange:NSMakeRange(l, 0) withString:text];
     [self setAttributes:mutableAttributes range:NSMakeRange(l, [text length])];
   }

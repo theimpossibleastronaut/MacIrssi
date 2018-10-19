@@ -92,7 +92,7 @@
     [[searchField cell] setSendsSearchStringImmediately:YES];
     [searchField setAutoresizingMask:NSViewWidthSizable];
     [searchField setLayoutName:@"searchField"];
-    [searchField setDelegate:self];
+    //[searchField setDelegate:self];
     [searchField setTarget:self];
     [searchField setAction:@selector(searchFieldAction:)];
     [self addSubview:searchField];    

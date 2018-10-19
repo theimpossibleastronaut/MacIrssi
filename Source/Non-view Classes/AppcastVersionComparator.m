@@ -49,7 +49,8 @@ typedef enum {
 {
   NSString *character;
   NSMutableString *s;
-  int i, n, oldType, newType;
+    unsigned long n;
+  int i, oldType, newType;
   NSMutableArray *parts = [NSMutableArray array];
   if ([version length] == 0) {
     // Nothing to do here
@@ -85,7 +86,8 @@ typedef enum {
   NSArray *partsB = [self splitVersionString:versionB];
   
   NSString *partA, *partB;
-  int i, n, typeA, typeB, intA, intB;
+    unsigned long n;
+    int i, typeA, typeB, intA, intB;
   
   n = MIN([partsA count], [partsB count]);
   for (i = 0; i < n; ++i) {

@@ -243,9 +243,10 @@
 			}
 			
 		// Draw snapback image
-			NSImage *snapBackArrow = SRResIndImage(@"SRSnapback");	
-			[snapBackArrow dissolveToPoint:[self _snapbackRectForFrame: cellFrame].origin fraction:1.0f];
-			
+			// MDB TODO
+            //NSImage *snapBackArrow = SRResIndImage(@"SRSnapback");
+            // MDB TODO
+			//[snapBackArrow dissolveToPoint:[self _snapbackRectForFrame: cellFrame].origin fraction:1.0f];
 		// Because of the gradient and snapback image, the white rounded rect will be smaller
 			whiteRect = NSInsetRect(cellFrame, 9.5f, 2.0f);
 			whiteRect.origin.x -= 7.5f;
@@ -268,9 +269,11 @@
 		// If key combination is set and valid, draw remove image
 			if (![self _isEmpty] && [self isEnabled])
 			{
-				NSString *removeImageName = [NSString stringWithFormat: @"SRRemoveShortcut%@", (mouseInsideTrackingArea ? (mouseDown ? @"Pressed" : @"Rollover") : (mouseDown ? @"Rollover" : @""))];
-				NSImage *removeImage = SRResIndImage(removeImageName);
-				[removeImage dissolveToPoint:[self _removeButtonRectForFrame: cellFrame].origin fraction:1.0f];
+                // MDB TODO
+				//NSString *removeImageName = [NSString stringWithFormat: @"SRRemoveShortcut%@", (mouseInsideTrackingArea ? (mouseDown ? @"Pressed" : @"Rollover") : (mouseDown ? @"Rollover" : @""))];
+                // MDB TODO
+				/*NSImage *removeImage = SRResIndImage(removeImageName);
+				[removeImage dissolveToPoint:[self _removeButtonRectForFrame: cellFrame].origin fraction:1.0f];*/
 			}
 		}
 		
@@ -458,8 +461,9 @@
 			 }*/
 			
 		// Draw snapback image
-			NSImage *snapBackArrow = SRResIndImage(@"SRSnapback");
-			[snapBackArrow dissolveToPoint:correctedSnapBackOrigin fraction:1.0f*alphaRecording];
+            // MDB TODO
+			/*NSImage *snapBackArrow = SRResIndImage(@"SRSnapback");
+			[snapBackArrow dissolveToPoint:correctedSnapBackOrigin fraction:1.0f*alphaRecording];*/
 		}
 		
 	// Draw border and remove badge if needed
@@ -469,9 +473,11 @@
 		// If key combination is set and valid, draw remove image
 		if (![self _isEmpty] && [self isEnabled])
 		{
-			NSString *removeImageName = [NSString stringWithFormat: @"SRRemoveShortcut%@", (mouseInsideTrackingArea ? (mouseDown ? @"Pressed" : @"Rollover") : (mouseDown ? @"Rollover" : @""))];
-			NSImage *removeImage = SRResIndImage(removeImageName);
-			[removeImage dissolveToPoint:[viewportMovement transformPoint:([self _removeButtonRectForFrame: cellFrame].origin)] fraction:alphaView];
+			// MDB TODO
+            //NSString *removeImageName = [NSString stringWithFormat: @"SRRemoveShortcut%@", (mouseInsideTrackingArea ? (mouseDown ? @"Pressed" : @"Rollover") : (mouseDown ? @"Rollover" : @""))];
+            // MDB TODO
+			/*NSImage *removeImage = SRResIndImage(removeImageName);
+			[removeImage dissolveToPoint:[viewportMovement transformPoint:([self _removeButtonRectForFrame: cellFrame].origin)] fraction:alphaView];*/
 			//NSLog(@"drew removeImage with alpha %f", alphaView);
 		}
 //	}

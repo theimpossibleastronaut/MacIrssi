@@ -51,7 +51,7 @@
 
 + (BOOL)checkAndBailIfNewer
 {
-  int version = [[NSUserDefaults standardUserDefaults] integerForKey:@"preferencesVersion"];
+  long version = [[NSUserDefaults standardUserDefaults] integerForKey:@"preferencesVersion"];
   
   if (version > CURRENT_PREFERENCES_VERSION) {
     

@@ -456,7 +456,7 @@ void get_mirc_color(const char **str, int *fg_ret, int *bg_ret);
 //-------------------------------------------------------------------
 - (void)nickListRowDoubleClicked:(id)sender
 {
-  int row = [nickTableView selectedRow];
+  long row = [nickTableView selectedRow];
   if (row > -1)
   {
     NSString *command = [NSString stringWithFormat:@"/query %s", ((NICK_REC *)[[nicks objectAtIndex:row] pointerValue])->nick];
@@ -1032,9 +1032,9 @@ int mirc_colors[] = { 15, 0, 1, 2, 12, 4, 5, 6, 14, 10, 3, 11, 9, 13, 8, 7 };
 //
 // Returns: The number of nicks
 //-------------------------------------------------------------------
-- (int)numberOfRowsInTableView:(NSTableView *)aTableView
+- (int) numberOfRowsInTableView:(NSTableView *)aTableView
 {
-  return [nicks count];
+  return (int)[nicks count];
 }
 
 
@@ -1502,9 +1502,10 @@ int mirc_colors[] = { 15, 0, 1, 2, 12, 4, 5, 6, 14, 10, 3, 11, 9, 13, 8, 7 };
 /* Wrapper - Start recursion */
 - (void)sortNicks
 {
-  @synchronized(nicks) {
+    // MDB TODO
+  /*@synchronized(nicks) {
     [self sortNicksWithLeftBound:0 rightBound:[nicks count] - 1];
-  }
+  }*/
 }
 
 //-------------------------------------------------------------------
@@ -1547,7 +1548,7 @@ int mirc_colors[] = { 15, 0, 1, 2, 12, 4, 5, 6, 14, 10, 3, 11, 9, 13, 8, 7 };
 //-------------------------------------------------------------------
 - (int)findNick:(NICK_REC *)nick
 {
-  int mid, result, low = 0, high = [nicks count] - 1;
+  int mid, result, low = 0, high = (int) [nicks count] - 1;
 
   const char *nick_flags = channel ? channel->server->get_nick_flags(channel->server) : NULL;
   
@@ -1601,7 +1602,7 @@ int mirc_colors[] = { 15, 0, 1, 2, 12, 4, 5, 6, 14, 10, 3, 11, 9, 13, 8, 7 };
 //-------------------------------------------------------------------
 - (int)findInsertionPositionForNick:(NICK_REC *)nick
 {
-  int mid = 0, result, low = 0, high = [nicks count] - 1;
+  int mid = 0, result, low = 0, high = (int) [nicks count] - 1;
   const char *nick_flags = channel->server->get_nick_flags(channel->server);
 
   while (low < high) {

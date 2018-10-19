@@ -616,7 +616,7 @@
         }
       }
       
-      [preferenceObjectController deleteChatnetWithIndex:index];
+      [preferenceObjectController deleteChatnetWithIndex:(int)index];
     } while ((index = [set indexLessThanIndex:index]) != NSNotFound);
     
     [networksArrayController setContent:[preferenceObjectController chatnetArray]];
@@ -644,7 +644,7 @@
   IrcnetBridgeController *network = [[networksArrayController selectedObjects] objectAtIndex:0];
   
   do {
-    [preferenceObjectController deleteChannelWithIndex:index fromChatnet:network];
+    [preferenceObjectController deleteChannelWithIndex:(int)index fromChatnet:network];
   } while ((index = [set indexLessThanIndex:index]) != NSNotFound);
 }
 
@@ -694,7 +694,7 @@
     NSUInteger index = [set lastIndex];
     
     do {
-      [preferenceObjectController deleteServerWithIndex:index];
+      [preferenceObjectController deleteServerWithIndex:(int)index];
     } while ((index = [set indexLessThanIndex:index]) != NSNotFound);
     
     [serversArrayController setContent:[preferenceObjectController serverArray]];
@@ -723,7 +723,7 @@
   
   [sharedFontManager setSelectedFont:mainWindowFont isMultiple:NO];
   [sharedFontManager setTarget:self];
-  [sharedFontManager setAction:@selector(newMainWindowFontFromFontManager:)];
+  //[sharedFontManager setAction:@selector(newMainWindowFontFromFontManager:)];
   
   [[sharedFontManager fontPanel:YES] orderFrontRegardless];
 }
@@ -735,7 +735,7 @@
   
   [sharedFontManager setSelectedFont:mainWindowFont isMultiple:NO];
   [sharedFontManager setTarget:self];
-  [sharedFontManager setAction:@selector(newNicklistFontFromFontManager:)];
+  //[sharedFontManager setAction:@selector(newNicklistFontFromFontManager:)];
   
   [[sharedFontManager fontPanel:YES] orderFrontRegardless];
 }
@@ -977,15 +977,15 @@
     if (!contextInfo)
     {
       KeyCombo keyCombo = [shortcutRecorderControl keyCombo];
-      [preferenceObjectController addShortcutWithKeyCode:keyCombo.code flags:keyCombo.flags];
+      [preferenceObjectController addShortcutWithKeyCode:(int)keyCombo.code flags:(int)keyCombo.flags];
     }
     else
     {
       // Context + OK means we've edited.
       ShortcutBridgeController *controller = contextInfo;
       KeyCombo keyCombo = [shortcutRecorderControl keyCombo];
-      [controller setFlags:keyCombo.flags];
-      [controller setKeyCode:keyCombo.code];
+      [controller setFlags:(int)keyCombo.flags];
+      [controller setKeyCode:(int)keyCombo.code];
     }
     [shortcutsArrayController setContent:[preferenceObjectController shortcutArray]];
   }

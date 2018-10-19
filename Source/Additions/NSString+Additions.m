@@ -55,6 +55,8 @@
     }
 
   } else {
+      // MDB TODO
+      /*
     NSDataDetector *detect = [[NSDataDetector alloc] initWithTypes:NSTextCheckingTypeLink error:nil];
     NSArray *matches = [detect matchesInString:self options:nil range:NSMakeRange(0, [self length])];
 
@@ -62,7 +64,7 @@
       [urls addObject:[[result URL] absoluteString]];
     }
 
-    [detect release];
+    [detect release];*/
   }
 
   return urls;

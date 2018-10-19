@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>MacIrssi</string>
 	<key>CFBundleIdentifier</key>
-	<string>uk.co.sysctl.MacIrssi</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>

@@ -252,7 +252,7 @@ static int loremIpsumCount = 8;
 
 - (void)toggleOrientation:(id)sender
 {
-  int orientation = [[NSUserDefaults standardUserDefaults] integerForKey:@"channelBarOrientation"];
+  int orientation = (int)[[NSUserDefaults standardUserDefaults] integerForKey:@"channelBarOrientation"];
   orientation = (orientation == MIChannelBarHorizontalOrientation ? MIChannelBarVerticalOrientation : MIChannelBarHorizontalOrientation);
 
   [[NSUserDefaults standardUserDefaults] setInteger:orientation forKey:@"channelBarOrientation"];

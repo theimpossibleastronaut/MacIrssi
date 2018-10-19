@@ -63,13 +63,13 @@ typedef unsigned int NSUInteger;
 #define NSFontPanelFaceModeMask 0
 #endif
 
-- (NSUInteger) validModesForFontPanel:(NSFontPanel *) fontPanel
+/*- (NSFontPanelModeMask) validModesForFontPanel:(NSFontPanel *) fontPanel
 {
 	NSUInteger ret = NSFontPanelStandardModesMask;
 	if(!_showPointSize) ret ^= NSFontPanelSizeModeMask;
 	if(!_showFontFace) ret ^= NSFontPanelFaceModeMask;
 	return ret;
-}
+}*/
 
 - (BOOL) becomeFirstResponder 
 {

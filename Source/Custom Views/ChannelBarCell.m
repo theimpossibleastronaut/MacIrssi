@@ -91,7 +91,7 @@
 - (NSString *)view:(NSView *)view stringForToolTip:(NSToolTipTag)tag point:(NSPoint)point userData:(void *)userData
 {
 	NSArray *nicks = [(ChannelController *)windowRec->gui_data nicks];
-	int nickCount = [nicks count];
+	int nickCount = (int)[nicks count];
 	int serverOpCount = 0;
 	int opCount = 0;
 	int halfOpCount = 0;

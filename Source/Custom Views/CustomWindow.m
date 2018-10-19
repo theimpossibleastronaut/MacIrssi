@@ -125,8 +125,9 @@ char *word_complete(WINDOW_REC *window, const char *line, int *pos, int erase);
 /* tab = word completion, arrow up/down = history up/down, esc = clear field */
 - (bool)handleSpecialKey:(unichar)uchar withModifierFlags:(unsigned int)flags
 {
+    char *old_s, *new_s;
 	switch (uchar) {
-		char *old_s, *new_s;
+		
 		
 		case NSUpArrowFunctionKey:
 			/********************************/
@@ -153,7 +154,7 @@ char *word_complete(WINDOW_REC *window, const char *line, int *pos, int erase);
 			/* Tab completion */
 			/******************/
       old_s = (char*)[[(NSTextView*)[self firstResponder] string] UTF8String];
-			int i = strlen(old_s);
+			int i = (int)strlen(old_s);
 			new_s = word_complete([controller currentWindowRec], old_s, &i, 0);
 			if (!new_s)
 				return TRUE;
@@ -189,7 +190,8 @@ char *word_complete(WINDOW_REC *window, const char *line, int *pos, int erase);
 			if ( !(flags & NSControlKeyMask))
 				break;
 			[self changeServer:self];
-			return TRUE;			
+			return TRUE;
+        default: return FALSE;
 	}
 	
 	/* No special key */
